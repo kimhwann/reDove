@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/LoginImg"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/logintv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="로그인"
+            android:fontFamily="@font/nanumsquare_aceb"
+            android:textColor="#003076"
+            android:textSize="26sp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/idet"
+                android:layout_width="360dp"
+                android:layout_height="70dp"
+                android:hint="아이디(학번)"
+                android:inputType="number"
+                android:fontFamily="@font/nanumsquare_acb"/>
+
+            <EditText
+                android:id="@+id/pwet"
+                android:layout_width="360dp"
+                android:layout_height="70dp"
+                android:hint="비밀번호"
+                android:fontFamily="@font/nanumsquare_acb"/>
+
+            <CheckBox
+                android:id="@+id/Check1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:text="자동 로그인"
+                android:fontFamily="@font/nanumsquare_acb"/>
+
+            <Button
+                android:id="@+id/loginbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/btn_style"
+                android:ems="30"
+                android:fontFamily="@font/nanumsquare_acb"
+                android:text="로그인"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/searchtv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumsquare_acb"
+                    android:gravity="center"
+                    android:text="비밀번호 찾기" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   |   " />
+
+                <TextView
+                    android:id="@+id/signuptv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumsquare_acb"
+                    android:text="회원가입" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    tools:context=".Mypage">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profile"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="26dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임"
+        android:fontFamily="@font/nanumsquare_acb"
+        android:textSize="22dp"
+        android:textColor="#003076"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="125dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="한양여자대학교 스마트IT과"
+        android:fontFamily="@font/nanumsquare_acb"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="125dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_style"
+        android:layout_marginTop="150dp"
+        android:text="프로필  수정"
+        android:fontFamily="@font/nanumsquare_acb"
+        android:textColor="#ffffff"
+        android:textSize="19dp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="240dp"
+        android:src="@drawable/sell" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/buy"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="172dp"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/heart"
+        android:layout_marginTop="243dp"
+        android:layout_marginLeft="298dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="판매내역"
+        android:fontFamily="@font/nanumsquare_acb"
+        android:textSize="18dp"
+        android:textColor="#333333"
+        android:layout_marginTop="328dp"
+        android:layout_marginLeft="48dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="구매내역"
+        android:fontFamily="@font/nanumsquare_acb"
+        android:textSize="18dp"
+        android:textColor="#333333"
+        android:layout_marginTop="328dp"
+        android:layout_marginLeft="176dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="관심목록"
+        android:fontFamily="@font/nanumsquare_acb"
+        android:textSize="18dp"
+        android:textColor="#333333"
+        android:layout_marginTop="328dp"
+        android:layout_marginLeft="300dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/confirm"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="38dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="학교 인증하기"
+        android:fontFamily="@font/nanumsquare_acb"
+        android:textSize="22dp"
+        android:textColor="#333333"
+        android:layout_marginTop="393dp"
+        android:layout_marginLeft="80dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/setting"
+        android:layout_marginTop="445dp"
+        android:layout_marginLeft="38dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="앱 설정"
+        android:fontFamily="@font/nanumsquare_acb"
+        android:textSize="22dp"
+        android:textColor="#333333"
+        android:layout_marginTop="446dp"
+        android:layout_marginLeft="80dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/notify"
+        android:layout_marginTop="497dp"
+        android:layout_marginLeft="38dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="물품신고등록"
+        android:fontFamily="@font/nanumsquare_acb"
+        android:textSize="22dp"
+        android:textColor="#333333"
+        android:layout_marginTop="499dp"
+        android:layout_marginLeft="80dp"/>
+
+
+</RelativeLayout>

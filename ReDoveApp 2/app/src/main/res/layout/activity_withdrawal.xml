@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Withdrawal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/widhdrawalback"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:src="@drawable/backbtn" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="354dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:fontFamily="@font/nanumsquare_aceb"
+                android:gravity="center"
+                android:text="회원탈퇴"
+                android:textColor="#003076"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginBottom="10dp"
+            android:background="#EAEAEA" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="계정을 삭제하면 게시글, 관심목록 등 모든 활동 정보가\n삭제됩니다. \n계정 삭제 후 7일간 다시 가입할 수 없습니다."
+            android:textSize="18sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nanumsquare_acb"/>
+
+
+        <TextView
+            android:id="@+id/withdrawaltv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="5dp"
+            android:text="탈퇴하시려는 이유가 궁금해요."
+            android:fontFamily="@font/nanumsquare_acb"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edt_style"
+            android:entries="@array/selected" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="5dp"
+                android:text="정말 계정을 삭제하시겠어요?"
+                android:fontFamily="@font/nanumsquare_acb"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <Button
+                    android:id="@+id/widhdrawalbtn1"
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edt_style"
+                    android:text="더 사용해 볼래요" />
+
+                <Button
+                    android:id="@+id/widhdrawalbtn2"
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_style"
+                    android:text="네, 탈퇴할래요"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
