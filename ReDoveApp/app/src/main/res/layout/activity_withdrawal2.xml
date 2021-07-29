@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Withdrawal2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/widhdrawal2back"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:src="@drawable/backbtn" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="354dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:fontFamily="@font/nanumsquare_aceb"
+                android:gravity="center"
+                android:text="회원탈퇴"
+                android:textColor="#003076"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginBottom="10dp"
+            android:background="#EAEAEA" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:text="잠깐만요!"
+        android:textSize="30sp"
+        android:fontFamily="@font/nanumsquare_acb"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="탈퇴하기 전에 읽어보세요. 계정을 탈퇴하면,"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:fontFamily="@font/nanumsquare_acb"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="※ 모든 게시글 및 채팅방이 삭제됩니다.\n\n※ 매너온도, 관심, 거래 후기 등 모든 활동 정보가 삭제됩니다.\n\n※ 계정이 탈퇴된 후에는 계정을 다시 살리거나 게시글, 채팅 및 관심 등의 데이터를 복구할 수 없습니다.\n\n※ 7일 동안 재가입할 수 없습니다."
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/nanumsquare_acr"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="아래의 탈퇴하기 버튼을 회원님의 활동이 영구히 삭제되며, 7일 동안 다시 가입할 수 없어요."
+        android:textSize="18sp"
+        android:textColor="#F44336"
+        android:fontFamily="@font/nanumsquare_acb"/>
+
+    <Button
+        android:id="@+id/withdrawal2btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/btn_style"
+        android:ems="30"
+        android:fontFamily="@font/nanumsquare_acb"
+        android:text="탈퇴하기"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply" />
+
+</LinearLayout>

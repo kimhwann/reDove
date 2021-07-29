@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="selected">
+        <item>너무 많이 이용해요</item>
+        <item>사고 싶은 물품이 없어요</item>
+        <item>물품이 안팔려요</item>
+        <item>비매너 사용자를 만났어요</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>의류</item>
+        <item>잡화</item>
+        <item>뷰티</item>
+        <item>디지털/가전</item>
+        <item>도서/티켓/음반</item>
+        <item>기타</item>
+    </string-array>
+</resources>

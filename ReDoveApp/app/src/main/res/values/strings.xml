@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ReDoveApp</string>
+    <string name="title_home">홈</string>
+    <string name="title_category">카테고리</string>
+    <string name="title_chatting">채팅</string>
+    <string name="title_mypage">마이페이지</string>
+</resources>
